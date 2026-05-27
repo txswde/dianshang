@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+build/
+dist/
+
+# Node / frontend
+node_modules/
+**/node_modules/
+**/dist/
+.vite/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
+!.env.sample
+
+# IDE / OS
+.claude/
+.github/
+**/.git.backup_before_outer_push/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime files
+logs/
+*.log
+uploads/
+**/uploads/
+test_results*.json
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+**/llm_backend/static/dist.zip
+
+# Generated GraphRAG data/cache/output
+**/llm_backend/docs/
+**/app/graphrag/data/
+**/app/graphrag/dev/data/
+**/app/graphrag/dev/test.py
+**/app/graphrag/.github/
+**/app/graphrag/.semversioner/
+**/app/graphrag/docs/
+**/app/graphrag/examples_notebooks/
+**/app/graphrag/tests/
+**/app/graphrag/test_data/
+**/app/graphrag/dev/static/
+**/app/graphrag/dev/webserver_static/
+**/app/graphrag/dev/webserver/static/
+**/app/graphrag/course/
+**/app/graphrag/settings.yaml
+**/app/graphrag/test_data/.env
+
+# Local notes
+AssistGen_项目面试复习.md
+AssistGen/
